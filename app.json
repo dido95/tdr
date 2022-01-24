@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Udla Match",
+    "slug": "UdlaMatch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/udlamatch.png",
+    "splash": {
+      "image": "./assets/splashum.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.exponent",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/udlamatch.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "host.exp.exponent",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
